@@ -7,12 +7,12 @@
     "content-hash": "4d5feaec62d68c9e3c7fbcbe0680971d",
     "packages": [
         {
-            "name": "mcale/spid-simplesamlphp",
-            "version": "v1.18.9",
+            "name": "simplesamlphp/simplesamlphp",
+            "version": "v1.19.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mcale16/spid-sp-simplesamlphp.git",
-                "reference": "d1d6d5acab956d9f1b3656b4da349014f7fa9e0b"
+                "url": "https://github.com/simplesamlphp/simplesamlphp.git",
+                "reference": "7082d518a5d23b85d8ede6c143d303ab3f9d3a2b"
             },
             "require": {
                 "ext-date": "*",
@@ -25,7 +25,7 @@
                 "ext-zlib": "*",
                 "php": ">=5.3",
                 "robrichards/xmlseclibs": "~1.4.1",
-                "simplesamlphp/saml2": "~1.9.1",
+                "simplesamlphp/saml2": "^4.1",
                 "whitehat101/apr1-md5": "~1.0"
             },
             "require-dev": {
